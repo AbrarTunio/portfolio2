@@ -1,0 +1,310 @@
+.skills {
+  background-color: lightseagreen;
+  border-top-left-radius: 50px !important;
+  border-bottom-right-radius: 100px !important;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  height: auto;
+
+  .h3 {
+    color: white !important;
+  }
+}
+
+i:hover {
+  color: lightseagreen;
+  transition: color 0.5s ease;
+}
+
+.btn {
+  font-size: 0.8em;
+}
+
+.btn:hover {
+  background-color: lightseagreen !important;
+  color: white !important;
+  transition: color 1s ease;
+}
+
+.flip:hover {
+  border-radius: 0;
+}
+
+#portfolio {
+  position: relative;
+  transition: 2s !important;
+}
+
+.button-container {
+  position: relative;
+}
+
+.image-title {
+  width: fit-content;
+  margin: auto;
+  color: gray;
+  margin-top: -40px;
+}
+
+.image-title + p {
+  color: lightseagreen;
+}
+
+.hidden-anchor {
+  /* display: inline-block; */
+  color: 000000;
+  cursor: pointer;
+  transition: color 1s ease;
+  transition: background 1s ease;
+}
+
+.hidden-anchor-smooth {
+  background: lightseagreen !important;
+  color: #ffffff !important;
+}
+
+.image-scroll-behavior {
+  transform: translateY(-40px);
+  transition: 1s;
+}
+
+.intro {
+  text-align: justify;
+}
+
+.flip {
+  transition: 1s;
+}
+
+.card {
+  transition: 2s;
+  transform: translateY(40px);
+  visibility: hidden;
+}
+
+.show-cards {
+  transition: 2s;
+  transform: translateY(20px);
+  visibility: visible;
+}
+
+.card {
+  margin: 10px auto;
+  height: 150px;
+}
+
+.jump-card-center,
+.jump-card-left,
+.jump-card-right {
+  transition: 0.5s;
+}
+
+.jump-card-left:hover {
+  transform: scale(1.1);
+  margin-right: 10px;
+  position: relative;
+  float: left;
+  transition: 0.5s;
+}
+
+.jump-card-center:hover {
+  transform: scale(1.1);
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.jump-card-right:hover {
+  transform: scale(1.1);
+  margin-left: 10px;
+  position: relative;
+  float: left;
+  transition: 0.5s;
+}
+
+/* Graduation */
+.custom-background-image {
+  background-image: url("graduation.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.custom-background-image:hover {
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+/*Graduation Ends here*/
+
+/* Quick Navigation */
+
+.custom-quick-margin {
+  margin: 150px auto !important;
+}
+
+/* Quick Navigation Ends here */
+
+/* Experience Start */
+.company-name {
+  color: lightseagreen;
+}
+
+.custom-background-image1 {
+  background-image: url("master-trainer.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.custom-background-image1:hover {
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+
+.custom-background-image2 {
+  background-image: url("site-engineer.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.custom-background-image2:hover {
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+
+.custom-background-image3 {
+  background-image: url("dist-it-officer.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.custom-background-image3:hover {
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+
+.custom-background-image-ct {
+  background-image: url("computer-teacher.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.custom-background-image-ct:hover {
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+
+.custom-background-image-co {
+  background-image: url("communication-officer.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.custom-background-image-co:hover {
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+
+/* Experience End */
+
+/* while code starts */
+.loop-box {
+  background-color: rgba(255, 255, 255, 0.532);
+}
+
+/* while code ends */
+
+.programming-card {
+  margin: 10px auto !important;
+}
+
+/* my project card */
+.project-card {
+  border-radius: 50%;
+}
+.all-projects {
+  transition: 1s;
+}
+
+.all-projects:hover {
+  background-color: darkslategrey !important;
+  color: whitesmoke !important;
+  transform: translateY(-10px);
+  transition: 1s;
+}
+
+/* Boostrap testimonial slider starts here */
+.testimonial-slider {
+  background-color: salmon;
+  padding: 3em 2em;
+}
+.testimonial-title {
+  color: #fff;
+}
+.testimonial-title h2 {
+  padding-left: 0.2em;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  height: 100%;
+}
+.carousel-item {
+  height: 700px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #fff;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  top: 60%;
+  transform: translateY(-50%);
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+@media (min-width: 576px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 50%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    left: 1em;
+    top: 90%;
+    opacity: 1;
+  }
+  .carousel-control-next {
+    left: 4.5em;
+  }
+}
